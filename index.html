@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
+    </head>
+    <style>
+        html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+        
+        .menu {
+            width: 100%;
+            text-align: right;
+            padding-top: 40px;
+            padding-bottom: 5px;
+            display: block;
+            position: fixed;
+            background-color: white;
+            top: 0;
+        }
+        
+                .menu-mobile {
+            width: 100%;
+            text-align: right;
+            padding-top: 40px;
+                    padding-bottom: 5px;
+                    display: none;
+                    position: fixed;
+                    background-color: white;
+        }
+        
+        .menuopen {
+            margin-right: 30px;
+            font-size: 40px;
+        }
+        
+                .menuclose {
+            margin-right: 30px;
+            font-size: 40px;
+                    display: none;
+        }
+        
+        .mobile-nav {
+            width: 100%;
+            display: none;
+            text-align: left;
+            margin: 0px;
+        }
+        
+        .op-m {
+            font-size: 25px;
+            font-family: 'Nanum Gothic', sans-serif;
+            width: 100%;
+            float: left;
+            display: block;
+            text-align: left;
+            padding: 10px;
+        }
+        
+                .op-cm {
+            background-color: darkblue;
+            color: white;
+            font-size: 25px;
+            font-family: 'Nanum Gothic', sans-serif;
+            width: 100%;
+            float: left;
+            display: block;
+            text-align: left;
+            padding: 10px;
+                    margin: 0px;
+        }
+        
+        .op {
+            padding: 14px;
+            font-size: 16px;
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+        
+        .op-c {
+            background-color: darkblue;
+            color: white;
+            border-radius: 50px;
+            padding: 14px;
+            margin-right: 20px;
+            font-size: 16px;
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+        
+        .logo {
+            text-align: left;
+            float: left;
+            padding-top: 0px;
+            margin-top: 0px;
+            margin-left: 20px;
+
+        }
+        
+        .container {
+            width: 100%;
+            display: inline-block;
+            margin-bottom: 0px;
+            padding-bottom: 30px;
+        }
+        
+        .coderev {
+            float: right;
+            text-align: right;
+            display: inline;
+            padding-top: 200px;
+            padding-right: 60px;
+            width: 45%;
+        }
+        
+                .mediarev {
+            float: left;
+            text-align: left;
+            display: inline;
+            padding-top: 200px;
+            padding-left: 60px;
+            width: 45%;
+        }
+        
+        .intro {
+            width: 45%;
+            float: left;
+            display: inline;
+        }
+        
+        .mediaintro {
+                        width: 45%;
+            float: right;
+            text-align: left;
+            display: inline;
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+        
+        .coderev-mobile {
+            display: none;
+            width: 100%;
+            text-align: center;
+            padding-top: 50px;
+        }
+        
+        .intro-mobile {
+            width: 100%;
+            display: none;
+            padding-top: 40px;
+        }
+        
+        .mediarev-mobile {
+            display: none;
+            width: 100%;
+            text-align: center;
+            padding-top: 50px;
+        }
+        
+        .mediaintro-mobile {
+            width: 100%;
+            display: none;
+        }
+        
+        h1 {
+          margin-left: 60px;
+            margin-top: 200px;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 70px;
+        }
+        
+        h3 {
+            margin-left: 60px;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 400;
+            font-size: 28px;
+        }
+        
+        .start {
+            border-radius: 50px;
+            background-color: #55baff;
+            padding: 20px;
+            text-align: center;
+            margin-left: 60px;
+            color: white;
+            font-family: 'Noto Sans KR', sans-serif;
+            width: 200px;
+            border: 0px;
+            font-size: 20px;
+        }
+        
+        .about {
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .aboutsub {
+            width: 20%;
+            display: inline;
+                text-align: center;
+            float: left;
+            margin: 2%;
+        }
+        
+        .about h1 {
+            margin-top: 20px;
+            margin-bottom: 0px;
+            color: gold;
+            text-align: left;
+        }
+        
+        .about h3 {
+            margin-left: 45px;
+            margin-right: 30px;
+            padding-bottom: 50px;
+            font-family: 'Noto Sans KR', sans-serif;
+            color: black;
+        }
+        
+        .aboutsub h3 {
+            margin-left: 0px;
+            margin-top: 0px;
+            margin-right: 0px;
+            padding-bottom: 0px;
+            text-align: center;
+            font-size: 28px;
+        }
+        
+        h4 {
+            color: black;
+            text-align: center;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 400;
+        }
+        
+        @media screen and (max-width: 1632px) {
+            h1 {font-size: 53px}
+            h3 {font-size: 21px}
+            .start {font-size: 15px; padding: 15px; width: 150px}
+            .coderev img {width: 600px; height: 455px}
+            .mediarev-mobile {display: none}
+            .mediaintro-mobile {display: none}
+            .mediarev-mobile img {width: 598px; height: 373px}
+        }
+        
+                @media screen and (max-width: 1416px) {
+            .mediarev img {width: 638px; height: 398px}
+        }
+        
+                        @media screen and (max-width: 1056px) {
+            .mediarev img {width: 510px; height: 318px}
+        }
+        
+        @media screen and (max-width: 1092px) {
+                    .intro {display: none}
+                    .coderev {display: none}
+            .container {display: none}
+                        .intro-mobile {display: block}
+                    .coderev-mobile {display: block}
+                    h1 {margin-top: 50px}
+            .mediarev {display: none}
+            .mediaintro {display: none}
+                        .mediarev-mobile {display: block}
+            .mediaintro-mobile {display: block}
+            .menu {display: none}
+            .menu-mobile {display: block}
+        }
+        
+        @media screen and (max-width: 720px) {
+                    .intro {display: none}
+                    .coderev {display: none}
+            .container {display: none}
+                        .intro-mobile {display: block}
+                    .coderev-mobile {display: block}
+            .coderev-mobile img {width: 600px; height: 455px;}
+                    h1 {margin-top: 50px}
+            .mediarev {display: none}
+            .mediaintro {display: none}
+                                    .mediarev-mobile {display: block}
+            .mediaintro-mobile {display: block}
+            .mediarev-mobile img {width: 598px; height: 373px}
+            .menu {display: none}
+            .menu-mobile {display: block}
+        }
+        
+                @media screen and (max-width: 720px) {
+                    .intro {display: none}
+                    .coderev {display: none}
+                    .container {display: none}
+                        .intro-mobile {display: block}
+                    .coderev-mobile {display: block}
+            .coderev-mobile img {width: 450px; height: 341px;}
+                    h1 {margin-top: 50px; margin-left: 45px; margin-right: 20px;}
+                    h3 {margin-left: 45px; margin-right: 20px;}
+                    .start {margin-left: 45px;}
+                    .mediarev {display: none}
+            .mediaintro {display: none}
+            .mediarev-mobile {display: block}
+            .mediaintro-mobile {display: block}
+                    .mediarev-mobile img {width: 449px; height: 280px}
+        }
+        
+    </style>
+    <body>
+    <div class="menu">
+         <img class="logo" src="ventabyte-logo.png" width="170" height="56">
+        <a class="op">Home</a>
+        <a class="op">Products</a>
+        <a class="op">Contact</a>
+        <a class="op">Language</a>
+        <a class="op-c">View the Collection</a>
+        </div>
+            <div class="menu-mobile">
+                <img class="logo" src="ventabyte-logo.png" width="170" height="56">
+                <a id="menuopen" onclick="openMenu()" class="menuopen">&#9776;</a>
+                <a id="menuclose" onclick="closeMenu()" class="menuclose">&times;</a>
+                <br>
+                <div id="mobile-nav" class="mobile-nav">
+                <a class="op-m">Home</a>
+                <a class="op-m">Products</a>
+                <a class="op-m">Contact</a>
+                <a class="op-m">Language</a>
+                    <a class="op-cm">View the Collection</a>
+                </div>
+        </div>
+        <br>
+        <div class="container">
+        <div class="coderev">
+                <img src="coderev%20copy.svg" width="800px" height="607px">
+        </div>
+        <div class="intro">
+        <h1>Let's put your business on the internet.</h1>
+            <h3>Make use of Ventabyte's wide variety of web development and UX/UI design services to create a window for your business online. Start with the essentials like a custom page design and website, and make an impression.</h3>
+            <button class="start">Start Designing</button>
+        </div>
+        </div>
+        <div class="intro-mobile">
+        <h1>Let's put your business on the internet.</h1>
+            <h3>Make use of Ventabyte's wide variety of web development and UX/UI design services to create a window for your business online. Start with the essentials like a custom page design and website, and make an impression.</h3>
+            <button class="start">Start Designing</button>
+        </div>
+                        <div class="coderev-mobile">
+                <img src="coderev%20copy.svg" width="800px" height="607px">
+        </div>
+        <div style="background-color: #f7f7f7;" class="container">
+        <div class="mediarev">
+                <img src="media.svg" width="797px" height="497px">
+        </div>
+        <div class="mediaintro">
+        <h1>Graphics. Done your way.</h1>
+            <h3>Maximize your brand's visibility with logos, banners, and infographics crafted to fit your brand perfectly. Impress potential clients with a graphic intelligently marketing your product, or send out a weekly newsletter with your own design and touch.</h3>
+            <button class="start" style="background-color:#dd00cf">Start Designing</button>
+        </div>
+        </div>
+         <div class="mediaintro-mobile">
+        <h1>Graphics. Done your way.</h1>
+            <h3>Maximize your brand's visibility with logos, banners, and infographics crafted to fit your brand perfectly. Impress potential clients with a graphic intelligently marketing your product, or send out a weekly newsletter with your own design and touch.</h3>
+            <button class="start" style="background-color:#dd00cf">Start Designing</button>
+        </div>
+                        <div class="mediarev-mobile">
+                <img src="media.svg" width="638px" height="398px">
+        </div>
+        <div class="about">
+        <h1>What we do.</h1>
+            <div class="aboutsub"><img src="business-white-18dp.svg" width="75px" height="75px"><br><h3>About us</h3><h4>Founded in 2017, we are a creative web development and graphic design agency based in Atlanta, United States. 
+<br>
+<br>
+We recognize that every organization is distinctive and that what you offer isn't what makes a company stand out, but how you create an impression. That's why all our services adapt uniquely to you or your company's needs.</h4></div>
+            
+            <div class="aboutsub"><img src="code-white-18dp.svg" width="75px" height="75px"><br><h3>Web Development</h3><h4>We build 100% responsive and fully functional websites with a modern design and interface. Utilizing the most contemporary web coding languages (HTML5, CSS3 and JavaScript 1.8.5), we are able to construct a user interface that is compatible with all devices, and easy to use for your website's viewers. We offer services such as content creation and free website maintenance, as well as direct technical support to your users.</h4></div>
+            
+            <div class="aboutsub"><img src="filter-white-18dp.svg" width="75px" height="75px"><br><h3>Graphic Design</h3><h4>Founded in 2017, we are a creative web development and graphic design agency based in Atlanta, United States. Employing the most contemporary web development languages, we design and construct custom websites for individuals and companies, and we offer services such as content creation and free website maintenance as well.
+
+We recognize that every organization is distinctive and that what you offer isn't what makes a company stand out, but how you create an impression. That's why all our services adapt uniquely to you or your company's needs.</h4></div>
+            
+            <div class="aboutsub"><img src="business-white-18dp.svg" width="75px" height="75px"><br><h3>About us</h3><h4>Founded in 2017, we are a creative web development and graphic design agency based in Atlanta, United States. Employing the most contemporary web development languages, we design and construct custom websites for individuals and companies, and we offer services such as content creation and free website maintenance as well.
+
+We recognize that every organization is distinctive and that what you offer isn't what makes a company stand out, but how you create an impression. That's why all our services adapt uniquely to you or your company's needs.</h4></div>
+        </div>
+    </body>
+    <script>
+    function openMenu() {
+        document.getElementById("mobile-nav").style.display = "block";
+        document.getElementById("menuopen").style.display = "none";
+        document.getElementById("menuclose").style.display = "block";
+    }
+        
+            function closeMenu() {
+        document.getElementById("mobile-nav").style.display = "none";
+        document.getElementById("menuopen").style.display = "block";
+        document.getElementById("menuclose").style.display = "none";
+    }
+        
+    </script>
+</html>
