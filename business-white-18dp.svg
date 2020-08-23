@@ -7,14 +7,14 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0 (4035a4f, 2020-05-01)"
-   sodipodi:docname="business-white-18dp.svg"
-   id="svg837"
-   version="1.1"
-   height="18px"
-   width="18px"
+   viewBox="0 0 24 24"
    fill="white"
-   viewBox="0 0 24 24">
+   width="18px"
+   height="18px"
+   version="1.1"
+   id="svg837"
+   sodipodi:docname="business-white-18dp.svg"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)">
   <metadata
      id="metadata843">
     <rdf:RDF>
@@ -29,31 +29,32 @@
   <defs
      id="defs841" />
   <sodipodi:namedview
-     inkscape:current-layer="svg837"
-     inkscape:window-maximized="0"
-     inkscape:window-y="23"
-     inkscape:window-x="0"
-     inkscape:cy="8.8922156"
-     inkscape:cx="9.8908732"
-     inkscape:zoom="37.111111"
-     showgrid="false"
-     id="namedview839"
-     inkscape:window-height="1027"
-     inkscape:window-width="1525"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     guidetolerance="10"
-     gridtolerance="10"
-     objecttolerance="10"
-     borderopacity="1"
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
      bordercolor="#666666"
-     pagecolor="#ffffff" />
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1525"
+     inkscape:window-height="1027"
+     id="namedview839"
+     showgrid="false"
+     inkscape:zoom="37.111111"
+     inkscape:cx="10.133388"
+     inkscape:cy="8.9461078"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg837" />
   <path
-     id="path833"
+     d="M0 0h24v24H0z"
      fill="none"
-     d="M0 0h24v24H0z" />
+     id="path833" />
   <path
-     style="fill:#00c4ff;fill-opacity:1"
+     d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"
      id="path835"
-     d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z" />
+     style="fill:#6be208;fill-opacity:1;stroke-width:0.99779528;stroke-miterlimit:4;stroke-dasharray:none" />
 </svg>

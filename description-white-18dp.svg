@@ -8,7 +8,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:version="1.0 (4035a4f, 2020-05-01)"
-   sodipodi:docname="filter-white-18dp.svg"
+   sodipodi:docname="description-white-18dp.svg"
    id="svg837"
    version="1.1"
    height="18px"
@@ -34,12 +34,12 @@
      inkscape:window-y="23"
      inkscape:window-x="0"
      inkscape:cy="9"
-     inkscape:cx="9"
+     inkscape:cx="8.9461078"
      inkscape:zoom="37.111111"
      showgrid="false"
      id="namedview839"
-     inkscape:window-height="978"
-     inkscape:window-width="2281"
+     inkscape:window-height="911"
+     inkscape:window-width="1797"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0"
      guidetolerance="10"
@@ -47,14 +47,14 @@
      objecttolerance="10"
      borderopacity="1"
      bordercolor="#666666"
-     pagecolor="#ffffff"
-     inkscape:document-rotation="0" />
+     pagecolor="#ffffff" />
   <path
      id="path833"
      fill="none"
-     d="M0 0h24v24H0z" />
+     d="M0 0h24v24H0V0z" />
   <path
-     style="fill:#31a0e4;fill-opacity:1"
+     sodipodi:nodetypes="cssssssccccccccc"
+     style="fill:#e000ff;fill-opacity:1;stroke-width:0.998581"
      id="path835"
-     d="M15.96 10.29l-2.75 3.54-1.96-2.36L8.5 15h11l-3.54-4.71zM3 5H1v16c0 1.1.9 2 2 2h16v-2H3V5zm18-4H7c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zm0 16H7V3h14v14z" />
+     d="M 13.971641,2 H 5.9943282 C 4.8974477,2 4,2.9 4,4 v 16 c 0,1.1 0.887476,2 1.9843565,2 H 17.960297 c 1.096881,0 1.994329,-0.9 1.994329,-2 V 8 Z m 3.988656,18 H 5.9943282 V 4 h 6.9801488 v 5 h 4.98582 z" />
 </svg>
