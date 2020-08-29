@@ -54,6 +54,7 @@
             display: none;
             text-align: left;
             margin: 0px;
+            background-color: white;
         }
         
         .op-m {
@@ -429,6 +430,7 @@ ul {
 
 .footer h5 {
     margin-top: 0px;
+    font-size: 25px;
 }
 
 .contact {
@@ -487,7 +489,7 @@ ul {
             .menu-mobile {display: block}
         }
         
-        @media screen and (max-width: 720px) {
+        @media screen and (max-width: 1050px) {
                     .intro {display: none}
                     .coderev {display: none}
             .container {display: none}
@@ -504,7 +506,7 @@ ul {
             .menu-mobile {display: block}
         }
         
-                @media screen and (max-width: 720px) {
+                @media screen and (max-width: 1050px) {
                     .intro {display: none}
                     .coderev {display: none}
                     .container {display: none}
@@ -532,7 +534,8 @@ ul {
     .pricebox-tag {width: 100%}
 }
 
-@media screen and (max-width: 715px) {
+@media screen and (max-width: 1000px) {
     .pricebox {width: 380px; height: 630px; margin-left: auto; margin-right: auto}
     .pricebox-ui {width: 380px; height: 400px; margin-left: auto; margin-right: auto}
+    .contacbox {width: 380px; height: 400px; margin-left: auto; margin-right: auto}
 }
