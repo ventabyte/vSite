@@ -33,20 +33,17 @@
 
 .menu-mobile a {
     text-decoration: none;
-    vertical-align: middle;
 }
         
         .menuopen {
             margin-right: 30px;
             font-size: 40px;
-            vertical-align: middle;
         }
         
                 .menuclose {
             margin-right: 30px;
             font-size: 40px;
                     display: none;
-                    vertical-align: middle;
         }
         
         .mobile-nav {
@@ -54,7 +51,6 @@
             display: none;
             text-align: left;
             margin: 0px;
-            background-color: white;
         }
         
         .op-m {
@@ -165,7 +161,7 @@
         .intro-mobile {
             width: 100%;
             display: none;
-            padding-top: 140px;
+            padding-top: 80px;
         }
         
         .mediarev-mobile {
@@ -430,7 +426,6 @@ ul {
 
 .footer h5 {
     margin-top: 0px;
-    font-size: 25px;
 }
 
 .contact {
@@ -459,6 +454,8 @@ ul {
 }
 
         @media screen and (max-width: 1632px) {
+            h1 {font-size: 53px}
+            h3 {font-size: 21px}
             .start {font-size: 15px; padding: 15px; width: 150px}
             .coderev img {width: 600px; height: 455px}
             .mediarev-mobile {display: none}
@@ -471,10 +468,13 @@ ul {
         }
         
                         @media screen and (max-width: 1056px) {
-            .mediarev img {width: 510px; height: 318px}
+            .mediarev img {width: 765px; height: 477px}
         }
         
         @media screen and (max-width: 1092px) {
+                        h1 {font-size: 80px}
+                        h2 {font-size: 63px}
+            h3 {font-size: 42px}
                     .intro {display: none}
                     .coderev {display: none}
             .container {display: none}
@@ -489,30 +489,30 @@ ul {
             .menu-mobile {display: block}
         }
         
-        @media screen and (max-width: 1050px) {
+        @media screen and (max-width: 720px) {
                     .intro {display: none}
                     .coderev {display: none}
             .container {display: none}
                         .intro-mobile {display: block}
                     .coderev-mobile {display: block}
-            .coderev-mobile img {width: 600px; height: 455px;}
+            .coderev-mobile img {width: 900px; height: 683px;}
                     h1 {margin-top: 50px}
             .mediarev {display: none}
             .mediaintro {display: none}
                                     .mediarev-mobile {display: block}
             .mediaintro-mobile {display: block}
-            .mediarev-mobile img {width: 598px; height: 373px}
+            .mediarev-mobile img {width: 897px; height: 560px}
             .menu {display: none}
             .menu-mobile {display: block}
         }
         
-                @media screen and (max-width: 1050px) {
+                @media screen and (max-width: 720px) {
                     .intro {display: none}
                     .coderev {display: none}
                     .container {display: none}
                         .intro-mobile {display: block}
                     .coderev-mobile {display: block}
-            .coderev-mobile img {width: 450px; height: 341px;}
+            .coderev-mobile img {width: 675px; height: 512px;}
                     h1 {margin-top: 50px; margin-left: 45px; margin-right: 20px;}
                     h3 {margin-left: 45px; margin-right: 20px;}
                     .start {margin-left: 45px;}
@@ -520,7 +520,8 @@ ul {
             .mediaintro {display: none}
             .mediarev-mobile {display: block}
             .mediaintro-mobile {display: block}
-                    .mediarev-mobile img {width: 449px; height: 280px}
+                    .mediarev-mobile img {width: 674px; height: 420px}
+                    .mediarev-mobile img {width: 674px; height: 420px}
         }
         
         @media screen and (max-width: 1296px) {
@@ -529,13 +530,8 @@ ul {
         }
 
 @media screen and (max-width: 1100px) {
-    .pricebox {width: 288px; margin-left: auto; margin-right: auto}
-    .pricebox-ui {width: 288px; margin-left: auto; margin-right: auto}
+    .pricebox {width: 432px; margin-left: auto; margin-right: auto}
+    .pricebox-ui {width: 432px; margin-left: auto; margin-right: auto}
     .pricebox-tag {width: 100%}
-}
-
-@media screen and (max-width: 1000px) {
-    .pricebox {width: 380px; height: 630px; margin-left: auto; margin-right: auto}
-    .pricebox-ui {width: 380px; height: 400px; margin-left: auto; margin-right: auto}
-    .contacbox {width: 380px; height: 400px; margin-left: auto; margin-right: auto}
+    .contactbox {width: 432; height: 675px}
 }
