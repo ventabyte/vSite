@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+    <div class="menu">
+         <img class="logo" src="ventabyte-logo.png" width="170" height="56">
+               <a href="index.html" class="op">Home</a>
+        <a href="products.html" class="op">Products</a>
+        <a href="contact.html" class="op">Contact</a>
+        <a href="contact.html" class="op-c">Start Designing</a>
+        </div>
+            <div class="menu-mobile">
+                <img class="logo" src="ventabyte-logo.png" width="170" height="56">
+                <a id="menuopen" onclick="openMenu()" class="menuopen">&#9776;</a>
+                <a id="menuclose" onclick="closeMenu()" class="menuclose">&times;</a>
+                <br>
+                <div id="mobile-nav" class="mobile-nav">
+ <a href="index.html" class="op-m">Home</a>
+                <a href="products.html" class="op-m">Products</a>
+                <a href="contact.html" class="op-m">Contact</a>
+                    <a href="contact.html" class="op-cm">Start Designing</a>
+                </div>
+        </div>
+        <br>
+        <br>
+        <div class="container">
+            <div class="intro"><h1>Have a project in mind?</h1><br><h3>We'd love to get to know your project and create the best solution for you. If you have any questions, don't hesitate to contact us!</h3></div>
+        <div class="coderev"><img src="undraw_contact_us_15o2.svg"></div>
+        </div>
+            <div class="intro-mobile"><h1>Have a project in mind?</h1><br><h3>We'd love to get to know your project and create the best solution for you. If you have any questions, don't hesitate to contact us!</h3></div>
+        <div class="coderev-mobile"><img src="undraw_contact_us_15o2.svg"></div>
+        <br>
+       <div class="contact">
+<div class="contactbox">
+           <img style="vertical-align: top;" src="undraw_calling_kpbp.svg" width="150px" height="250px">
+    <h2 style="padding:0px">By phone</h2>
+    <h3>Call us at +1 (678) 723-5724</h3>
+           </div>
+           <div class="contactbox">
+           <img style="vertical-align: top;" src="undraw_typing_jie3.svg" width="150px" height="200px">
+    <h2 style="padding:0px">By SMS or WhatsApp</h2>
+    <h3>Message us at +1 (678) 723-5724</h3>
+           </div>
+                      <div class="contactbox">
+           <img style="vertical-align: top;" src="undraw_Mail_sent_re_0ofv.svg" width="150px" height="200px">
+    <h2 style="padding-top:60px">By email</h2>
+    <h3>Send us an email at contact@ventabyte.com</h3>
+           </div>
+        </div>
+        <div class="footer">
+        <h5>© 2020 Ventabyte LLC. All rights reserved.</h5>
+            <h5 style="padding-top: 0px;"><a href="index.html#about">About</a> | <a href="contact.html">Contact</a></h5>
+        </div>
+    </body>
+    <script>
+    function openMenu() {
+        document.getElementById("mobile-nav").style.display = "block";
+        document.getElementById("menuopen").style.display = "none";
+        document.getElementById("menuclose").style.display = "block";
+    }
+        
+            function closeMenu() {
+        document.getElementById("mobile-nav").style.display = "none";
+        document.getElementById("menuopen").style.display = "block";
+        document.getElementById("menuclose").style.display = "none";
+    }
+        
+    </script>
+</html>

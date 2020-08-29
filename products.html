@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+    <div class="menu">
+         <img class="logo" src="ventabyte-logo.png" width="170" height="56">
+               <a href="index.html" class="op">Home</a>
+        <a href="products.html" class="op">Products</a>
+        <a href="contact.html" class="op">Contact</a>
+        <a href="contact.html" class="op-c">Start Designing</a>
+        </div>
+            <div class="menu-mobile">
+                <img class="logo" src="ventabyte-logo.png" width="170" height="56">
+                <a id="menuopen" onclick="openMenu()" class="menuopen">&#9776;</a>
+                <a id="menuclose" onclick="closeMenu()" class="menuclose">&times;</a>
+                <br>
+                <div id="mobile-nav" class="mobile-nav">
+ <a href="index.html" class="op-m">Home</a>
+                <a href="products.html" class="op-m">Products</a>
+                <a href="contact.html" class="op-m">Contact</a>
+                    <a href="contact.html" class="op-cm">Start Designing</a>
+                </div>
+        </div>
+        <br>
+        <br>
+        <div class="container">
+            <div class="intro"><h1>Browse our products and services.</h1><br><h3>Explore our wide variety of web development and graphic design plans and services. We offer the option of custom plans as well to better suit your needs. Find the plan that's ideal for you.</h3></div>
+        <div class="coderev"><img src="undraw_selected_options_42hx.svg"></div>
+        </div>
+            <div class="intro-mobile"><h1>Browse our products and services.</h1><br><h3>Expolre our wide variety of web development and design plans and services. We offer the option of custom plans as well to better suit your needs. Find the plan that's ideal for you.</h3></div>
+        <div class="coderev-mobile"><img src="undraw_selected_options_42hx.svg"></div>
+        <div class="pricebox-cont">
+              <h2 style="color: white; margin-bottom: 0px;">Web Development</h2>
+            <h3 style="color: white; margin-top: 0px; font-weight: 300; margin-left: 0px;">Perfect plans for personal and business websites.</h3>
+            <br>
+        <div class="pricebox"><div class="pricebox-tag"><h4>BASIC</h4><h2>$59</h2><p style="padding-top: 0px;">per page / year</p><p>WebDev Basic is ideal for individuals, small businesses, informational websites and websites that don't require many updates.</p></div><ul>
+                    <li>Up to 30 updates / year</li>
+                    <li>Technical support included</li>
+                        <li>Compatibility with all devices</li>
+                        <li>1 stylesheet</li>
+                    </ul><a class="inquiry" href="contact.html">Inquire Now</a></div>
+        <div class="pricebox"><div style="background-color: #00c1e8" class="pricebox-tag"><h4>ADVANTAGE</h4><h2>$78</h2><p style="padding-top: 0px;">per page / year</p><p>WebDev Advantage is ideal for small and medium businesses, websites with written articles and websites that require recurring updates.</p></div><ul>
+                    <li>Up to 52 updates / year</li>
+                    <li>Technical support included</li>
+                        <li>Compatibility with all devices</li>
+                        <li>3 stylesheets</li>
+                    </ul><a style="background-color: #00c1e8" class="inquiry" href="contact.html">Inquire Now</a></div>
+        <div class="pricebox"><div style="background-color: #d900e8" class="pricebox-tag"><h4>EDGE</h4><h2>$104</h2><p style="padding-top: 0px;">per page / year</p><p>WebDev Edge is ideal for large businesses, websites with changing information and websites that require many updates frequently.</p></div><ul>
+                    <li>Up to 80 updates / year</li>
+                    <li>Technical support included</li>
+                        <li>Compatibility with all devices</li>
+                        <li>5 stylesheets</li>
+                    </ul><a style="background-color: #d900e8" class="inquiry" href="contact.html">Inquire Now</a></div>
+        </div>
+        <div style="background-color: #a100e6" class="pricebox-cont">
+        <h2 style="color: white; margin-bottom: 0px">Content Creation</h2>
+             <h3 style="color: white; margin-top: 0px; font-weight: 300; margin-left: 0px;">Need ideas? We've got you covered.</h3>
+   <div class="pricebox-ui"><h4>TEXT</h4><h2>$21</h2><p style="padding-top: 0px;">per 1,750 characters</p><p>With CC Text, we'll create any written content from a perfect about page description to product information.</p><br>
+                    <a style="background-color:#8f00c7" class="inquiry" href="contact.html">Inquire Now</a></div>   <div style="background-color: #b300c7" class="pricebox-ui"><h4>COMPLETE</h4><h2>$54</h2><p style="padding-top: 0px;">per page</p><p>With CC Complete, we'll construct and design all content for your website, so you don't have to spend time creating content from scratch.</p><br>
+                    <a style="background-color:#8f00c7" class="inquiry" href="contact.html">Inquire Now</a></div>   <div class="pricebox-ui"><h4>STYLE</h4><h2>$32</h2><p style="padding-top: 0px;"></p>per stylesheet<p>With CC Style, we'll develop and design the visual style of your website as well as the layout to create an impressive interface.</p><br>
+                    <a style="background-color:#8f00c7" class="inquiry" href="contact.html">Inquire Now</a></div>
+        </div>
+        <div class="gdesign">
+            <h2>Graphic Design</h2>
+        <h3>Please contact us for graphic design pricing specific to your project.</h3>
+        </div>
+        <div class="footer">
+        <h5>© 2020 Ventabyte LLC. All rights reserved.</h5>
+            <h5 style="padding-top: 0px;"><a href="index.html#about">About</a> | <a href="contact.html">Contact</a></h5>
+        </div>
+    </body>
+    <script>
+    function openMenu() {
+        document.getElementById("mobile-nav").style.display = "block";
+        document.getElementById("menuopen").style.display = "none";
+        document.getElementById("menuclose").style.display = "block";
+    }
+        
+            function closeMenu() {
+        document.getElementById("mobile-nav").style.display = "none";
+        document.getElementById("menuopen").style.display = "block";
+        document.getElementById("menuclose").style.display = "none";
+    }
+        
+    </script>
+</html>
