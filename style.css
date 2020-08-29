@@ -33,17 +33,20 @@
 
 .menu-mobile a {
     text-decoration: none;
+    vertical-align: middle;
 }
         
         .menuopen {
             margin-right: 30px;
             font-size: 40px;
+            vertical-align: middle;
         }
         
                 .menuclose {
             margin-right: 30px;
             font-size: 40px;
                     display: none;
+                    vertical-align: middle;
         }
         
         .mobile-nav {
@@ -161,7 +164,7 @@
         .intro-mobile {
             width: 100%;
             display: none;
-            padding-top: 40px;
+            padding-top: 140px;
         }
         
         .mediarev-mobile {
@@ -454,8 +457,6 @@ ul {
 }
 
         @media screen and (max-width: 1632px) {
-            h1 {font-size: 53px}
-            h3 {font-size: 21px}
             .start {font-size: 15px; padding: 15px; width: 150px}
             .coderev img {width: 600px; height: 455px}
             .mediarev-mobile {display: none}
