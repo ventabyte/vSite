@@ -22,9 +22,9 @@
         
                 .menu-mobile {
             width: 100%;
-                    height: 100px;
+                    height: 80px;
             text-align: right;
-            padding-top: 40px;
+            padding-top: 20px;
                     padding-bottom: 5px;
                     display: none;
                     position: fixed;
@@ -135,7 +135,7 @@
             display: inline;
             padding-top: 200px;
             padding-left: 60px;
-            width: 45%;
+            width: 40%;
         }
         
         .intro {
@@ -145,7 +145,7 @@
         }
         
         .mediaintro {
-                        width: 45%;
+                        width: 40%;
             float: right;
             text-align: left;
             display: inline;
@@ -163,7 +163,7 @@
         .intro-mobile {
             width: 100%;
             display: none;
-            padding-top: 80px;
+            padding-top: 50px;
         }
         
         .mediarev-mobile {
@@ -439,10 +439,13 @@ ul {
     font-weight: 300;
 }
 
+@media screen and (max-width: 2000px) {
+    .coderev img {width: 768px; height: 584px;}
+}
+
 @media screen and (max-width: 1200px) {
     .menu {display: none}
     .menu-mobile {display: block}
-    .mobile-nav {display: block}
     .intro {display: none}
     .coderev {display: none}
     .intro-mobile {display: block}
@@ -459,17 +462,17 @@ ul {
     .aboutsub h3 {font-size: 23px}
     .footer {height: 100px}
     .inquiry {padding: 12px}
+    .container {display: none}
 }
 
 @media screen and (max-width: 992px) {
     .menu {display: none}
     .menu-mobile {display: block}
-    .mobile-nav {display: block}
     .intro {display: none}
     .coderev {display: none}
     .intro-mobile {display: block}
     .coderev-mobile {display: block}
-    .coderev mobile img {width: 545px; height: 413px}
+    .coderev mobile img {width: 550px; height: 413px}
     .mediaintro {display: none}
     .mediarev {display: none}
     .mediaintro-mobile {display: block}
@@ -488,36 +491,36 @@ ul {
     .pricebox-cont h2 {font-size: 35px}
     .pricebox-cont h3 {font-size: 23px; margin-bottom: 20px}
     .about h1 {margin: 0px}
+    .container {display: none}
 }
 
 @media screen and (max-width: 768px) {
     .menu {display: none}
     .menu-mobile {display: block}
-    .mobile-nav {display: block}
     .intro {display: none}
     .coderev {display: none}
     .intro-mobile {display: block}
     .coderev-mobile {display: block}
-    .coderev mobile img {width: 997px; height: 756px}
+    .coderev mobile img {width: 100%; height: 40%}
     .mediaintro {display: none}
     .mediarev {display: none}
     .mediaintro-mobile {display: block}
     .mediarev-mobile {display: block}
-    h1 {font-size: 59px; margin-top: 40px; margin-left: 38px}
+    h1 {font-size: 59px; margin-top: 25px; margin-left: 20px}
     h2 {font-size: 47px}
     h3 {font-size: 30px; margin-left: 30px; margin-right: 30px;}
-    .start {font-size: 17px; padding: 17px; width: 170px}
+    .start {font-size: 20px; padding: 20px; width: 200px}
     .aboutsub {width: 25%}
     .aboutsub h3 {font-size: 30px; margin-left: 30px; margin-right: 30px;}
     .footer {height: 110px}
     .inquiry {padding: 12px}
     h4 {margin-left: 8px; margin-right: 8px}
+    .container {display: none}
 }
 
 @media screen and (max-width: 600px) {
     .menu {display: none}
     .menu-mobile {display: block}
-    .mobile-nav {display: block}
     .intro {display: none}
     .coderev {display: none}
     .intro-mobile {display: block}
@@ -527,13 +530,14 @@ ul {
     .mediarev {display: none}
     .mediaintro-mobile {display: block}
     .mediarev-mobile {display: block}
-    h1 {font-size: 49px; margin-top: 33px; margin-left: 27px}
+    h1 {font-size: 49px; margin-top: 33px; margin-left: 20px}
     h2 {font-size: 40px}
-    h3 {font-size: 27px; margin-left: 27px; margin-right: 27px;}
-    .start {font-size: 14px; padding: 14px; width: 140px}
+    h3 {font-size: 27px; margin-left: 20px; margin-right: 20px;}
+    .start {font-size: 14px; padding: 19px; width: 140px}
     .aboutsub {width: 100%}
     .aboutsub h3 {font-size: 27px; margin-left: 27px; margin-right: 27px;}
     .footer {height: 110px}
     .inquiry {padding: 10px}
     h4 {margin-left: 7px; margin-right: 7px}
+    .container {display: none}
 }
